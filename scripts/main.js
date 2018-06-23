@@ -2,10 +2,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/IMG_0270.jpg') {
-      myImage.setAttribute ('src','images/IMG_0272.jpg');
+    if(mySrc === 'images/IMG_0270.JPG') {
+      myImage.setAttribute ('src','images/IMG_0272.JPG');
     } else {
-      myImage.setAttribute ('src','images/IMG_0270.jpg');
+      myImage.setAttribute ('src','images/IMG_0270.JPG');
     }
 }
 var myButton = document.querySelector('button');
